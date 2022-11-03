@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+.contenedor1 {
+  width: 1000px;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #a6a6a6;
+}
+
+.contenedor2 {
+  width: 400px;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #a6a6a6;
+}
+
+.turno1 {
+  float: left;
+  width: 300px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #a6a6a6;
+}
+
+.turno2 {
+  float: left;
+  width: 300px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #a6a6a6;
+}
+
+.turno3 {
+  float: left;
+  width: 300px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #a6a6a6;
+}
