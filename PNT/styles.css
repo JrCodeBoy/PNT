@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
 
-
 .contenedor0 {
   width: 1000px;
   float: center;
@@ -120,6 +119,21 @@ label:after { content: "" }
 
 }
 
+.centered {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+.col-centered {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+}
+
 
 /*
 <!-- =========================================== -->
@@ -149,4 +163,8 @@ label:after { content: "" }
 .topnav a.active {
   color: white;
   font-weight: bold;
+}
+
+.turno {
+  float: left;
 }
