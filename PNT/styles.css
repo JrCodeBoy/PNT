@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
 
+
 .contenedor0 {
   width: 1000px;
   float: center;
@@ -8,8 +9,8 @@
   text-align: center;
 }
 
-.contenedor1 {
-  width: 1000px;
+.container-fluid { /* Se actualiza la clase a -fluid | Juani --> */
+  width: auto;
   float: left;
   overflow: hidden;
   background-color: #ffffff;
@@ -18,11 +19,12 @@
   border: 1px solid #a6a6a6;
   border-radius: 5px;
   box-shadow: 2px 2px 4px #a6a6a6;
+  
 }
 
 .contenedor2 {
   width: 400px;
-  float: left;
+  float: center;
   overflow: hidden;
   background-color: #ffffff;
   padding: 10px;
@@ -71,4 +73,80 @@
   background-color: #ffffff;
   padding: 10px;
   margin: 5px;
+}
+
+
+/*
+<!-- =========================================== -->
+<!--  Se implementa el label de campoFecha --> Juani
+<!-- =========================================== -->
+*/
+label { 
+  color: #ffffff;
+  font-weight: bold;
+  width: 1000px;
+  float: center;
+}
+label:after { content: "" }
+
+
+
+/*
+<!-- =========================================== -->
+<!--  Se implementa la variable para centralizar --> Juani
+<!-- =========================================== -->
+*/
+.center {
+  text-align: center;
+}
+
+/*
+<!-- =========================================== -->
+<!--  Se implementa la variable centerGrid que centraliza
+<!--  la grilla de horarios disponibles --> Juani
+<!-- =========================================== -->
+*/
+.centerGrid {
+  margin: 0 auto;
+  width: 50%;
+  
+}
+
+
+.centerLat {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+
+}
+
+
+/*
+<!-- =========================================== -->
+<!--  Se implementa el boton/clase de MENU --> Juani
+<!-- =========================================== -->
+*/
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(48, 104, 247);
+  color: white
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.topnav a.active {
+  color: white;
+  font-weight: bold;
 }
