@@ -1,142 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8"/>
+        <meta
+        name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
 
 
-    <title>LW Dental</title>
-  </head>
-  <body>
-    <!-- =========================================== -->
-    <!-- ENCABEZADO -->
-    <!-- =========================================== -->
+        <title>LW Dental</title>
+    </head>
+    <body>
+        <!-- =========================================== -->
+        <!-- ENCABEZADO -->
+        <!-- =========================================== -->
 
-    <div class="topnav">
-      <a class="active" href="#MENU">MENU</a>
-    </div>
-    
-    <div class="container-fluid p-5 bg-primary text-white text-center"> <!-- Centro el h1 | Juani --> 
-      <h1>RESERVAR TURNOS</h1>
-    </div>
-
-    <div class="container-fluid p-5 bg-primary text-white text-center"> <!-- Centro el campo fecha | Juani --> 
-      <label for="campoFecha">Fecha</label> <!-- se declarò la variable campoFecha | Juani --> 
-      <p></p>
-      <input type="date" class='center' id="fecha" width='100' required /> <!-- se centrò date | Juani --> 
-    </div>
-
-    <div class="contenedor0">
-         <!-- <h5 class="card-title">09:00 A 10:00 HS</h5> -->
-         <!-- <p class="card-text">DISPONIBLE</p>
-          <a href="#" class="btn btn-primary">Reservar</a>-->
+            <div class="topnav"> <a class="active" href="#MENU">MENU</a>
         </div>
-   <!---->
-   <!-- Inicio el Layout  -->
-   <!---->
-   
-   <r-c join>
-    <c2-3 class="text-center" >
-      <div class="container-fluid"> 
-        <div class="row"> 
-          <div class="col-sm-5 mx-auto"> 
-      <div class="turno1">
-        <h5 class="card-title">09:00 A 10:00 HS</h5>
-        <p class="card-text">DISPONIBLE</p>
-        <a href="#" class="btn btn-primary">Reservar</a>
-      </div>
-      <div class="turno2">
-        <h5 class="card-title">10:00 A 11:00 HS</h5>
-        <p class="card-text">DISPONIBLE</p>
-        <a href="#" class="btn btn-primary">Reservar</a>
-      </div>
-      <div class="turno3">
-        <h5 class="card-title">11:00 A 12:00 HS</h5>
-        <p class="card-text">DISPONIBLE</p>
-        <a href="#" class="btn btn-primary">Reservar</a>
-      </div>
-    </div>
-  </div>
-</div>
-      <c2-3 class="text-center" >
-        <div class="container-fluid">
-          <div class="row"> 
-            <div class="col-sm-5 mx-auto">  
-      <div class="turno1">
-        <h5 class="card-title">12:00 A 13:00 HS</h5>
-        <p class="card-text">DISPONIBLE</p>
-        <a href="#" class="btn btn-primary">Reservar</a>
-      </div>
-      <div class="turno2">
-        <h5 class="card-title">13:00 A 14:00 HS</h5>
-        <p class="card-text">DISPONIBLE</p>
-        <a href="#" class="btn btn-primary">Reservar</a>
-      </div>
-      <div class="turno3">
-        <h5 class="card-title">14:00 A 15:00 HS</h5>
-        <p class="card-text">DISPONIBLE</p>
-        <a href="#" class="btn btn-primary">Reservar</a>
-      </div>
-    </div>
-  </div>
-</div>
-      <c2-3 class="text-center" >
-        <div class="container-fluid"> 
-          <div class="row"> 
-            <div class="col-sm-5 mx-auto"> 
-      <div class="turno1">
-        <h5 class="card-title">15:00 A 16:00 HS</h5>
-        <p class="card-text">DISPONIBLE</p>
-        <a href="#" class="btn btn-primary">Reservar</a>
-      </div>
-      <div class="turno2">
-        <h5 class="card-title">16:00 A 17:00 HS</h5>
-        <p class="card-text">DISPONIBLE</p>
-        <a href="#" class="btn btn-primary">Reservar</a>
-      </div>
-      <div class="turno3">
-        <h5 class="card-title">17:00 A 18:00 HS</h5>
-        <p class="card-text">DISPONIBLE</p>
-        <a href="#" class="btn btn-primary">Reservar</a>
-       </div>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-    </c2-3>
-    
-    <!-- =========================================== -->
-    <!-- IMPLEMENTO EL MENU  -->
-    <!-- =========================================== -->
-    <c1-3 class="text-center">
-      <div class="container-fluid p-5 bg-primary text-white text-center">
-        <h5 class="card-title">Confirme su nuevo turno</h5>
-        <p class="card-text"></p>
-        <a href="#" class="btn btn-light">Confirmar Reserva</a>
-        <p class="card-text"></p>
-        <a href="#" class="btn btn-dark">Limpiar Seleccion</a>
-      </div>
-    </c1-3>
-  </r-c>
-  <!---->
-  <!-- FIN del layout -->
-  <!---->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <div
+            class="container-fluid p-5 bg-primary text-white text-center">
+            <!-- Centro el h1 | Juani -->
+            <h1>RESERVAR TURNOS</h1>
+        </div>
+
+        <!--Implemento el bloque del calendario-->
+        <div
+            class="container-fluid p-5 bg-primary text-white text-center">
+            <!-- Centro el campo fecha | Juani -->
+            <label for="fecha"></label>
+            <!-- se declarò la variable campoFecha | Juani -->
+            <section>Seleccione una Fecha</section>
+            <p></p>
+            <input
+            type="date" class='center' id="fecha" width='100' required/>
+        <!-- se centrò date | Juani -->
+        </div>
+
+        <!-- =========================================== -->
+        <!--  Inicio el Layout  -->
+        <!-- =========================================== -->
+
+            <div class="container text-center"> <div class="row align-items-start">
+                <div class="col">
+                    <div class="turno1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">09:00 A 10:00 HS</h5>
+                                <p class="card-text">DISPONIBLE</p>
+                                <a href="#" class="btn btn-primary">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <div class="turno2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">11:00 A 12:00 HS</h5>
+                                <p class="card-text">DISPONIBLE</p>
+                                <a href="#" class="btn btn-primary">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <div class="turno3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">13:00 A 14:00 HS</h5>
+                                <p class="card-text">DISPONIBLE</p>
+                                <a href="#" class="btn btn-primary">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <div class="turno4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">15:00 A 16:00 HS</h5>
+                                <p class="card-text">DISPONIBLE</p>
+                                <a href="#" class="btn btn-primary">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Primera columna -->
+
+                <div class="col">
+                    <div class="turno5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">10:00 A 11:00 HS</h5>
+                                <p class="card-text">DISPONIBLE</p>
+                                <a href="#" class="btn btn-primary">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <div class="turno6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">12:00 A 13:00 HS</h5>
+                                <p class="card-text">DISPONIBLE</p>
+                                <a href="#" class="btn btn-primary">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <div class="turno7">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">14:00 A 15:00 HS</h5>
+                                <p class="card-text">DISPONIBLE</p>
+                                <a href="#" class="btn btn-primary">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <div class="turno8">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">16:00 A 17:00 HS</h5>
+                                <p class="card-text">DISPONIBLE</p>
+                                <a href="#" class="btn btn-primary">Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+
+
+                </div>
+                <!-- Segunda columna -->
+
+
+                <div class="row align-items-end">
+                    <div class="col">
+                        <div class="turno8">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">17:00 A 18:00 HS</h5>
+                                    <p class="card-text">DISPONIBLE</p>
+                                    <a href="#" class="btn btn-primary">Reservar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p></p>
+                    <p></p>
+
+                </div>
+                <!-- =========================================== -->
+                <!-- IMPLEMENTO EL MENU  -->
+                <!-- =========================================== -->
+                    <c1-3 class="text-center"> <div class="container-fluid p-5 bg-primary text-white text-center">
+                        <h5 class="card-title">Confirme su nuevo turno</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-light">Confirmar Reserva</a>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-dark">Limpiar Seleccion</a>
+                    </div>
+                </c1-3>
+            </r-c>
+
+
+            <!---->
+            <!-- FIN del layout -->
+            <!----><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"> </script>
+        </body>
+    </body>
 </html>
